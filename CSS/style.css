@@ -1,0 +1,35 @@
+/* use custom media query */
+
+/* ------------------------------
+---------For Mobile--------------*/
+@media screen and (max-width:576px) {
+    .carousel-item img {
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .center-align {
+        text-align: center;
+    }
+}
+
+/* ------------------------------
+---------For Web--------------*/
+@media screen and (min-width:992px) {
+    .for-web {
+        width: 872px;
+        /* height: 710px; */
+    }
+}
+
+
+
+
+
+/* ----------------------------------------------------------------------------- */
+/* use custom CSS */
+
+/* main part */
+.working-background {
+    background-color: #F4FAFD;
+}
