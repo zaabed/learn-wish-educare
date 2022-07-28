@@ -8,6 +8,11 @@
         object-fit: cover;
     }
 
+    .small-device {
+        display: flex;
+        flex-direction: column;
+    }
+
     .center-align {
         text-align: center;
     }
@@ -27,6 +32,10 @@
 /* use custom CSS */
 
 /* main part */
+.carousel-item img {
+    filter: brightness(60%);
+}
+
 .working-background {
     background-color: #F4FAFD;
 }
